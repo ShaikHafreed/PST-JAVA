@@ -9,15 +9,15 @@ public class Task_1 {
         
         int n = sc.nextInt();
 
-        // Create array
+        
         int[] salary = new int[n];
 
-        // Read salaries
+       
         for (int i = 0; i < n; i++) {
             salary[i] = sc.nextInt();
         }
 
-        // Increase salary by 10% and print
+       
         System.out.println("Updated Salaries:");
 
         for (int i = 0; i < n; i++) {
