@@ -1,42 +1,44 @@
+import java.util.Scanner;
+
 public class Task_3 {
-   
-    public static int binarySearch(int[] arr, int target) {
-        int low = 0;
-        int high = arr.length - 1;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+        System.out.println("Enter " + n + " sorted elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter element to search: ");
+        int target = sc.nextInt();
+
+        int result = binarySearch(arr, target);
+
+        if (result != -1) {
+            System.out.println("Element found at index: " + result);
+        } else {
+            System.out.println("Element not found.");
+        }
+    }
+
+    static int binarySearch(int[] arr, int target) {
+        int low = 0, high = arr.length - 1;
 
         while (low <= high) {
-            
             int mid = low + (high - low) / 2;
 
-           
             if (arr[mid] == target) {
                 return mid;
-            }
-
-            
-            if (arr[mid] < target) {
+            } else if (arr[mid] < target) {
                 low = mid + 1;
-            } 
-            
-            else {
+            } else {
                 high = mid - 1;
             }
         }
-
-        
         return -1;
-    }
-
-    public static void main(String[] args) {
-        int[] sortedArray = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
-        int target = 38;
-        
-        int result = binarySearch(sortedArray, target);
-        
-        if (result == -1) {
-            System.out.println("Element not present in the array.");
-        } else {
-            System.out.println("Element found at index: " + result);
-        }
     }
 }

@@ -1,12 +1,25 @@
-   public class Task_2 {
+import java.util.Scanner;
+
+public class Task_2 {
     public static void main(String[] args) {
-        
-        String[] fruits = {"Apple", "Banana", "Cherry", "Mango"};
+        Scanner sc = new Scanner(System.in);
 
-        
-        int index = 1; 
+        System.out.print("Enter number of elements: ");
+        int n = sc.nextInt();
 
-        
-        System.out.println("Element at index " + index + " is: " + fruits[index]);
+        int[] arr = new int[n];
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter index to access: ");
+        int index = sc.nextInt();
+
+        if (index >= 0 && index < n) {
+            System.out.println("Element at index " + index + " is: " + arr[index]);
+        } else {
+            System.out.println("Invalid index!");
+        }
     }
 }
