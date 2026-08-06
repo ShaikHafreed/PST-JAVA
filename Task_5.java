@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Task_5 {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Task_5 {
             return;
         }
 
-        // simplest approach: sort a copy, then the Kth smallest is at index k-1
+        
         int[] sorted = arr.clone();
         Arrays.sort(sorted);
 
