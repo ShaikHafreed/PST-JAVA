@@ -1,6 +1,8 @@
+package Week1_Taks;
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task_2 {
+public class Task_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,13 +15,18 @@ public class Task_2 {
             arr[i] = sc.nextInt();
         }
 
-        System.out.print("Enter index to access: ");
-        int index = sc.nextInt();
+        System.out.print("Enter K: ");
+        int k = sc.nextInt();
 
-        if (index >= 0 && index < n) {
-            System.out.println("Element at index " + index + " is: " + arr[index]);
-        } else {
-            System.out.println("Invalid index!");
+        if (k < 1 || k > n) {
+            System.out.println("Invalid K!");
+            return;
         }
+
+        
+        int[] sorted = arr.clone();
+        Arrays.sort(sorted);
+
+        System.out.println("The " + k + "th smallest element is: " + sorted[k - 1]);
     }
 }

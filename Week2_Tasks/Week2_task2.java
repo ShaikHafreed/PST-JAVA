@@ -1,3 +1,4 @@
+package Week2_Tasks;
 import java.util.*;
 
 public class Week2_task2 {
