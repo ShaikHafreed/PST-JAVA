@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task10 {
+public class Week2_Task10_JavaHashSet {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine().trim());

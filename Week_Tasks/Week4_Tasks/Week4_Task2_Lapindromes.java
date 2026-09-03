@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task2 {
+public class Week4_Task2_Lapindromes {
     static boolean isLapindrome(String s) {
         int half = s.length() / 2;
         char[] first = s.substring(0, half).toCharArray();

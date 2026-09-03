@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task3 {
+public class Week5_Task3_MaxSubarrayAndSubsequence {
     static int[] maxSubarray(int[] arr) {
         int maxEndingHere = arr[0];
         int maxSubarraySum = arr[0];

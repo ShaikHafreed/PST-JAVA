@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task9 {
+public class Week6_Task9_LongestPalindromicSubstring {
     static int[] manacher(String s) {
         StringBuilder sb = new StringBuilder("^#");
         for (char c : s.toCharArray()) {

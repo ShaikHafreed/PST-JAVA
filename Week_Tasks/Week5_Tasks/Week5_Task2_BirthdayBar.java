@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task2 {
+public class Week5_Task2_BirthdayBar {
     static int birthdayBar(List<Integer> s, int d, int m) {
         int count = 0;
         for (int i = 0; i + m <= s.size(); i++) {

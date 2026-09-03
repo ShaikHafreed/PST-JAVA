@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task4 {
+public class Week2_Task4_RemoveDuplicatesFromSortedArray {
     static int removeDuplicates(int[] nums) {
         int k = 1;
         for (int i = 1; i < nums.length; i++) {

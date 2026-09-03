@@ -1,6 +1,6 @@
 package Week_Tasks.Week4_Tasks;
 
-public class Week4_Task1 {
+public class Week4_Task1_StringHalvesAlike {
     static boolean halvesAreAlike(String s) {
         String vowels = "aeiouAEIOU";
         int half = s.length() / 2;

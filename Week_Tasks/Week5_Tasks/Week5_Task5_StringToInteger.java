@@ -1,6 +1,6 @@
 package Week_Tasks.Week5_Tasks;
 
-public class Week5_Task5 {
+public class Week5_Task5_StringToInteger {
     static int myAtoi(String s) {
         int i = 0, n = s.length();
         while (i < n && s.charAt(i) == ' ') {

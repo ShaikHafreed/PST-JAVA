@@ -1,7 +1,7 @@
 package Syllabus_Tasks;
 import java.util.*;
 
-public class Syllabus_task3 {
+public class Syllabus_Task3_MaximumProfitAnalyzer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine().trim());

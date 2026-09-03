@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.util.*;
 
-public class Week3_Task7 {
+public class Week3_Task7_LargestNumber {
     static String largestNumber(int[] nums) {
         String[] strs = new String[nums.length];
         for (int i = 0; i < nums.length; i++) {

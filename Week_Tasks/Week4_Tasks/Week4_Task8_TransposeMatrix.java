@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task8 {
+public class Week4_Task8_TransposeMatrix {
     static int[][] transpose(int[][] matrix) {
         int rows = matrix.length, cols = matrix[0].length;
         int[][] result = new int[cols][rows];

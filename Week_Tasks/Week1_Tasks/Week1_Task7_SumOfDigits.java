@@ -4,7 +4,7 @@ interface DigitCondition {
     boolean check(int digit);
 }
 
-public class Task_7 {
+public class Week1_Task7_SumOfDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

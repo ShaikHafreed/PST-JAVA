@@ -1,7 +1,7 @@
 package Week_Tasks.Week1_Tasks;
 import java.util.Scanner;
 
-public class Task_1 {
+public class Week1_Task1_SalaryIncrease {
 
     public static void main(String[] args) {
 

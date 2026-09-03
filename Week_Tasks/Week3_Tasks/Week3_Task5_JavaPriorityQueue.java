@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.util.*;
 
-public class Week3_Task5 {
+public class Week3_Task5_JavaPriorityQueue {
     static class Student {
         private final int id;
         private final String name;

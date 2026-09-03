@@ -1,7 +1,7 @@
 package Week_Tasks.Week1_Tasks;
 import java.util.Scanner;
 
-public class Task_6 {
+public class Week1_Task6_ArrayPairs {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
 package Week_Tasks.Week4_Tasks;
 
-public class Week4_Task5 {
+public class Week4_Task5_TimeConversion {
     static String timeConversion(String s) {
         String period = s.substring(8);
         int hour = Integer.parseInt(s.substring(0, 2));

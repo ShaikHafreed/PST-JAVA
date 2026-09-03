@@ -3,7 +3,7 @@ package Syllabus_Tasks;
 import java.util.*;
 import java.util.stream.*;
 
-public class Syllabus_task1 {
+public class Syllabus_Task1_SalaryTransformation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine().trim());

@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task9 {
+public class Week5_Task9_StringMatchingInArray {
     static List<String> stringMatching(String[] words) {
         List<String> result = new ArrayList<>();
         for (String word : words) {

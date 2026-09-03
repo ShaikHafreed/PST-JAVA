@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task10 {
+public class Week5_Task10_NaivePatternSearch {
     static List<Integer> naiveSearch(String text, String pattern) {
         List<Integer> indices = new ArrayList<>();
         int n = text.length(), m = pattern.length();

@@ -3,7 +3,7 @@ package ClassRoom_Tasks;
 import java.util.*;
 import java.util.stream.*;
 
-public class ClassRoom_Task6 {
+public class ClassRoom_Task6_SalaryAscending {
     public static void main(String[] args) {
         List<Employee> employees = Employee.sampleData();
 

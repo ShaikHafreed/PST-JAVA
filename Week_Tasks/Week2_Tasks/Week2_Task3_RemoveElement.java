@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task3 {
+public class Week2_Task3_RemoveElement {
     static int removeElement(int[] nums, int val) {
         int k = 0;
         for (int i = 0; i < nums.length; i++) {

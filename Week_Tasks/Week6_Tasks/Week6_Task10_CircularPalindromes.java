@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task10 {
+public class Week6_Task10_CircularPalindromes {
     static int longestPalindromeLength(String s) {
         StringBuilder sb = new StringBuilder("^#");
         for (char c : s.toCharArray()) {

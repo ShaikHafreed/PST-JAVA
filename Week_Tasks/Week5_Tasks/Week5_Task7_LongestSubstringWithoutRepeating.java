@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task7 {
+public class Week5_Task7_LongestSubstringWithoutRepeating {
     static int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> lastSeen = new HashMap<>();
         int maxLen = 0, start = 0;

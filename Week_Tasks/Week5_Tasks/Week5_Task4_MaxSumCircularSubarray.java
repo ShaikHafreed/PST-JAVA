@@ -2,7 +2,7 @@ package Week_Tasks.Week5_Tasks;
 
 import java.util.*;
 
-public class Week5_Task4 {
+public class Week5_Task4_MaxSumCircularSubarray {
     static int maxSubarraySumCircular(int[] nums) {
         int total = 0, curMax = 0, maxSum = nums[0], curMin = 0, minSum = nums[0];
         for (int num : nums) {

@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.util.*;
 
-public class Week3_Task8 {
+public class Week3_Task8_JavaComparator {
     static class Player {
         String name;
         int score;

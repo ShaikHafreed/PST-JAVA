@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task6 {
+public class Week4_Task6_MoveZeroes {
     static void moveZeroes(int[] nums) {
         int insertPos = 0;
         for (int num : nums) {

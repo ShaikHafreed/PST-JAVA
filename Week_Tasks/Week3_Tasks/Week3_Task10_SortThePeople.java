@@ -3,7 +3,7 @@ package Week_Tasks.Week3_Tasks;
 import java.util.*;
 import java.util.stream.*;
 
-public class Week3_Task10 {
+public class Week3_Task10_SortThePeople {
     static String[] sortPeople(String[] names, int[] heights) {
         Integer[] indices = new Integer[names.length];
         for (int i = 0; i < names.length; i++) {

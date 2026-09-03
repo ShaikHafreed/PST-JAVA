@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task7 {
+public class Week6_Task7_PalindromeIndex {
     static boolean isPalindrome(String s, int lo, int hi) {
         while (lo < hi) {
             if (s.charAt(lo) != s.charAt(hi)) {

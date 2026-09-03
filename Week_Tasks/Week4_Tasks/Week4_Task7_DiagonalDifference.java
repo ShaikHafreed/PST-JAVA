@@ -1,6 +1,6 @@
 package Week_Tasks.Week4_Tasks;
 
-public class Week4_Task7 {
+public class Week4_Task7_DiagonalDifference {
     static int diagonalDifference(int[][] arr) {
         int n = arr.length;
         int primary = 0, secondary = 0;

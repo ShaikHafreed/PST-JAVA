@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task5 {
+public class Week2_Task5_MaximumSubarray {
     static int maxSubArray(int[] nums) {
         int maxEndingHere = nums[0];
         int maxSoFar = nums[0];

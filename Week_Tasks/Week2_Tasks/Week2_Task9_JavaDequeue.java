@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task9 {
+public class Week2_Task9_JavaDequeue {
     static int maxUniqueInWindow(int[] arr, int m) {
         Map<Integer, Integer> freq = new HashMap<>();
         Deque<Integer> window = new ArrayDeque<>();

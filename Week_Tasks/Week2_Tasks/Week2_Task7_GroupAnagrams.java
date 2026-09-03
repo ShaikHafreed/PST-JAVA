@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task7 {
+public class Week2_Task7_GroupAnagrams {
     static List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> groups = new LinkedHashMap<>();
         for (String s : strs) {

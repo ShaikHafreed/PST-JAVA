@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task10 {
+public class Week4_Task10_MatrixLayerRotation {
     static int[][] matrixRotation(int[][] matrix, int r) {
         int m = matrix.length, n = matrix[0].length;
         int layers = Math.min(m, n) / 2;

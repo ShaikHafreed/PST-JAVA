@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.time.*;
 
-public class Week3_Task4 {
+public class Week3_Task4_DayOfTheWeek {
     static String dayOfTheWeek(int day, int month, int year) {
         String name = LocalDate.of(year, month, day).getDayOfWeek().toString();
         return name.charAt(0) + name.substring(1).toLowerCase();

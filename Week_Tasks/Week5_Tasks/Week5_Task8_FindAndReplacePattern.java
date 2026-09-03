@@ -3,7 +3,7 @@ package Week_Tasks.Week5_Tasks;
 import java.util.*;
 import java.util.stream.*;
 
-public class Week5_Task8 {
+public class Week5_Task8_FindAndReplacePattern {
     static String normalize(String s) {
         Map<Character, Character> map = new HashMap<>();
         StringBuilder sb = new StringBuilder();

@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task4 {
+public class Week4_Task4_ContainsDuplicate {
     static boolean containsDuplicate(int[] nums) {
         Set<Integer> seen = new HashSet<>();
         for (int num : nums) {

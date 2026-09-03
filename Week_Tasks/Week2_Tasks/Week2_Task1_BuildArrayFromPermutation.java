@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task1 {
+public class Week2_Task1_BuildArrayFromPermutation {
     static int[] buildArray(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {

@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task5 {
+public class Week6_Task5_MarsExploration {
     static int marsExploration(String s) {
         String pattern = "SOS";
         int mismatches = 0;

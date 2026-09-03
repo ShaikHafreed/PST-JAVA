@@ -3,7 +3,7 @@ package Week_Tasks.Week3_Tasks;
 import java.time.*;
 import java.time.temporal.*;
 
-public class Week3_Task2 {
+public class Week3_Task2_DaysBetweenDates {
     static int daysBetweenDates(String date1, String date2) {
         LocalDate d1 = LocalDate.parse(date1);
         LocalDate d2 = LocalDate.parse(date2);

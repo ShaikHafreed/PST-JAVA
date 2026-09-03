@@ -2,7 +2,7 @@ package Week_Tasks.Week6_Tasks;
 
 import java.util.*;
 
-public class Week6_Task6 {
+public class Week6_Task6_FindAllAnagrams {
     static List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         if (s.length() < p.length()) {

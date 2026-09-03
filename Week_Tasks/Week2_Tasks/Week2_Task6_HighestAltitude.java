@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task6 {
+public class Week2_Task6_HighestAltitude {
     static int largestAltitude(int[] gain) {
         int altitude = 0;
         int maxAltitude = 0;

@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task2 {
+public class Week6_Task2_RepeatedSubstringPattern {
     static boolean repeatedSubstringPattern(String s) {
         int n = s.length();
         int[] lps = new int[n];

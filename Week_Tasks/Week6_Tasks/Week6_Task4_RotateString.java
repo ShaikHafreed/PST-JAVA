@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task4 {
+public class Week6_Task4_RotateString {
     static boolean contains(String text, String pattern) {
         int n = text.length(), m = pattern.length();
         if (m == 0) {

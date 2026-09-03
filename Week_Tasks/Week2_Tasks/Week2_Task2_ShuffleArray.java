@@ -1,7 +1,7 @@
 package Week_Tasks.Week2_Tasks;
 import java.util.*;
 
-public class Week2_task2 {
+public class Week2_Task2_ShuffleArray {
     static int[] shuffle(int[] nums, int n) {
         int[] result = new int[2 * n];
         for (int i = 0; i < n; i++) {

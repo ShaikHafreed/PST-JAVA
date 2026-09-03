@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.util.*;
 
-public class Week3_Task6 {
+public class Week3_Task6_JavaArraylist {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine().trim());

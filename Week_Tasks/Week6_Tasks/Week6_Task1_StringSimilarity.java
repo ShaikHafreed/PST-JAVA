@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task1 {
+public class Week6_Task1_StringSimilarity {
     static long stringSimilarity(String s) {
         int n = s.length();
         int[] z = new int[n];

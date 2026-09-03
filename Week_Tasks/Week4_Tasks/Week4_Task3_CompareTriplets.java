@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task3 {
+public class Week4_Task3_CompareTriplets {
     static int[] compareTriplets(int[] a, int[] b) {
         int alice = 0, bob = 0;
         for (int i = 0; i < a.length; i++) {

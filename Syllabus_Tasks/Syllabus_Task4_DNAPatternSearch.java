@@ -2,7 +2,7 @@ package Syllabus_Tasks;
 
 import java.util.*;
 
-public class Syllabus_task4 {
+public class Syllabus_Task4_DNAPatternSearch {
     static int[] buildLPS(String pattern) {
         int[] lps = new int[pattern.length()];
         int len = 0;

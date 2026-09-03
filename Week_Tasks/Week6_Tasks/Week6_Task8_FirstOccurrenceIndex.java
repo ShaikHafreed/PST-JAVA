@@ -1,6 +1,6 @@
 package Week_Tasks.Week6_Tasks;
 
-public class Week6_Task8 {
+public class Week6_Task8_FirstOccurrenceIndex {
     static int strStr(String haystack, String needle) {
         int n = haystack.length(), m = needle.length();
         if (m == 0) {

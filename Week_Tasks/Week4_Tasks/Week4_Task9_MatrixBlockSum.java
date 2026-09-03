@@ -2,7 +2,7 @@ package Week_Tasks.Week4_Tasks;
 
 import java.util.*;
 
-public class Week4_Task9 {
+public class Week4_Task9_MatrixBlockSum {
     static int[][] matrixBlockSum(int[][] mat, int k) {
         int m = mat.length, n = mat[0].length;
         int[][] prefix = new int[m + 1][n + 1];

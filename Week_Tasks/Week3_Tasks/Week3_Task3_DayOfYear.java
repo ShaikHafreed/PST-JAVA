@@ -2,7 +2,7 @@ package Week_Tasks.Week3_Tasks;
 
 import java.time.*;
 
-public class Week3_Task3 {
+public class Week3_Task3_DayOfYear {
     static int dayOfYear(String date) {
         return LocalDate.parse(date).getDayOfYear();
     }

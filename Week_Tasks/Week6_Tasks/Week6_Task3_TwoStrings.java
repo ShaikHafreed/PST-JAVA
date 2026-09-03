@@ -2,7 +2,7 @@ package Week_Tasks.Week6_Tasks;
 
 import java.util.*;
 
-public class Week6_Task3 {
+public class Week6_Task3_TwoStrings {
     static boolean twoStrings(String s1, String s2) {
         Set<Character> chars = new HashSet<>();
         for (char c : s1.toCharArray()) {

@@ -1,6 +1,6 @@
 package Week_Tasks.Week5_Tasks;
 
-public class Week5_Task6 {
+public class Week5_Task6_AlternatingCharacters {
     static int alternatingCharacters(String s) {
         int deletions = 0;
         for (int i = 1; i < s.length(); i++) {
